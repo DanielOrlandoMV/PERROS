@@ -1,0 +1,180 @@
+/* Estilos generales */
+body {
+    background: linear-gradient(90deg,#2f9600, #35ff35, #1ca800 );
+        border-radius: 0%;
+        margin: 0; /* Elimina márgenes por defecto */
+        padding: 0; /* Elimina el relleno por defecto */
+        font-family: 'Arial', sans-serif; /* Tipografía legible */
+        line-height: 1.6; /* Espaciado entre líneas para mejorar la legibilidad */
+        color: #333; /* Color del texto, generalmente un gris oscuro */
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg,#216900, #40be40, #d9ffd6 );
+    color: rgb(27, 61, 33);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.titulo1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Barra de navegación vertical */
+nav.nav-vertical {
+    width: 200px;
+    background-color: #3adb3a00;
+    height: 100vh;
+    position: fixed;
+    top: 30;
+    left: 0;
+    padding-top: 40px;
+}
+
+nav.nav-vertical ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.nav-vertical ul li {
+    margin: 50px 0;
+    text-align: center;
+}
+
+nav.nav-vertical ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 5px;
+}
+
+nav.nav-vertical ul li a:hover {
+    background-color: #555;
+}
+
+.img-header {
+    position: absolute;
+    top: 15px;
+    right: 45px;
+    width: 100px;
+    height: auto;
+}
+
+.img-header:hover {
+    transform: scale(1.1);
+  }
+
+/* Contenido */
+main {
+        margin-left: 310px; /* Incrementa el margen izquierdo */
+        padding: 20px;
+        background-color: #6affa3;
+        width: 80%;
+        max-width: 800px;
+        margin-top: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+
+}
+
+.contenido p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    
+}
+
+/* Barras de progreso */
+.progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.progress-bar label {
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+progress {
+    width: 60%;
+    height: 20px;
+}
+
+.progress-bar span {
+    margin-left: 10px;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+table, th, td {
+    border: 1px solid #0b8307;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+thead {
+    background-color: #f0f0f0;
+}
+
+.btn.primary.full {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    background-color:  #09ff00;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn.primary.full:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del botón al pasar el mouse */
+  }
+    
+  .btn.primary.full:hover {
+    background-color: #10c200bd;
+  }
+
+  .btn.primary.full {
+    margin: 50px 0;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+
+    background: linear-gradient(90deg, #0080ff, #005f99, #003366);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    border-radius: 0%;
+    top: 35px;
+}

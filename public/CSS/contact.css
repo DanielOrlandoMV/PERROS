@@ -1,0 +1,88 @@
+body {
+  background-image: url('../images/header.jpg');
+
+      border-radius: 0%;
+      margin: 0; /* Elimina márgenes por defecto */
+      padding: 0; /* Elimina el relleno por defecto */
+      font-family: 'Arial', sans-serif; /* Tipografía legible */
+      line-height: 1.6; /* Espaciado entre líneas para mejorar la legibilidad */
+      color: #333; /* Color del texto, generalmente un gris oscuro */
+}
+
+header {
+  background: linear-gradient(90deg,#003366, #005f99, #0080ff );
+  color: white;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+}
+
+.img-header {
+  position: absolute;
+  top: 15px;
+  right: 45px;
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.img-header:hover {
+  transform: scale(1.1);
+}
+
+.tituloContacto{
+  font-size: 30px;
+  color: #246dff;
+  text-decoration: underline;
+  position: absolute;
+  top: 155px;
+  left: 615px;
+
+}
+
+.descripcionContacto{
+  font-size: 20px;
+  color: #ddeaec; 
+  background-color: #61adeb; 
+  box-shadow: 5px 5px 15px rgb(134, 134, 134);
+  padding: 10px; 
+  border-radius: 5px; 
+  display: inline-block;
+  position: absolute;
+  top: 220px;
+  left: 310px;
+  text-align: center;
+}
+
+.proyects{
+  background-color: #1457bb;
+  color: white;
+  border: none; 
+  position: absolute;
+  top: 640px;
+  left: 670px;  
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block; 
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 5px; 
+  text-align: center;
+}
+
+.proyects:hover {
+  transform: scale(1.1); /* Aumenta el tamaño del botón al pasar el mouse */
+}
+
+
+footer {
+  top: 435px;
+  background: linear-gradient(90deg, #0080ff, #005f99, #003366);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
